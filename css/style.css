@@ -10,7 +10,7 @@ body {
 
 main {
     width: 100vw;
-    height: 60vh;
+    height: 80vh;
     margin: 0 auto;
     background-color: black;
 }
@@ -60,7 +60,7 @@ figure {
     font-size: 12px;
 }
 
-.speaker-view span {
+.speaker-view {
     color: white;
 }
 
@@ -68,7 +68,6 @@ figure {
     position: absolute;
     right: 5px;
     top: 5px;
-    
     display: flex;
     gap: 5px;
     font-size: 12px;
@@ -81,11 +80,55 @@ figure {
 }
 
 
-
-
 /* TOOLBAR */
 
-footer {
-    min-height: 100px;
-    border: 10px solid blue;
+nav {
+    background-color: rgba(0, 0, 0, 0.796);
+    padding: 8px;
+}
+
+.icon {
+    color: white;
+}
+
+.icon p {
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.toolbar i {
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 7px;
+}
+
+ul li {
+    text-align: center;
+    padding: 5px;
+}
+
+.angle-up i {
+    font-size: 10px;
+    line-height: 48px;
+}
+
+.end {
+    background-color: #4a4a4a;
+}
+
+.end h4 {
+    color: red;
+    font-size: 10px;
+    padding: 5px;    
 }
