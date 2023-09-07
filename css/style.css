@@ -8,13 +8,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    max-width: 800px;
+main {
+    width: 100vw;
+    height: 60vh;
     margin: 0 auto;
     background-color: black;
+}
+
+.container {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 55px 0px;
     position: relative;
 }
 
@@ -62,6 +66,26 @@ figure {
 
 .speaker-view {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 5px;
+    top: 5px;
+    
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.speaker-view div, .arrows {
+    background-color: gray;
+    padding: 3px 5px;
+    border-radius: 4px;
+}
+
+
+
+
+/* TOOLBAR */
+
+footer {
+    min-height: 100px;
+    border: 10px solid blue;
 }
