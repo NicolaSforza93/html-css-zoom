@@ -3,3 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    position: relative;
+}
+
+main .container {
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+figure {
+    width: 160px;
+}
+
+.user-screen {
+    position: relative;
+    padding: 7px 2px;
+}
+
+.name-user {
+    color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 7px;
+    left: 2px;
+    background-color: rgba(128, 128, 128, 0.692);
+    padding: 3px 6px;
+    gap: 5px;
+}
+
+.name-user h6 {
+    font-weight: 300;
+}
+
+.name-user > span {
+    font-size: 12px;
+}
+
+.speaker-view span {
+    color: white;
+}
+
+.speaker-view {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
